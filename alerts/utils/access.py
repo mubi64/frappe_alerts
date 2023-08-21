@@ -13,3 +13,6 @@ def on_login(login_manager):
         cache_alerts(login_manager.user)
     except Exception:
         error(_("An error has occurred while caching alerts on login."), False)
+
+def on_logout(login_manager):
+    pass
