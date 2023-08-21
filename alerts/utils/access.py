@@ -3,7 +3,7 @@
 # Company: Level Up Marketing & Software Development Services
 # Licence: Please refer to LICENSE file
 
-
+from frappe import _
 from .common import error
 from .alert import cache_alerts
 
